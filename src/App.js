@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import desktopBanner from './images/stonkraft-desk-banner.webp'
+import mobileBanner from './images/stonkraft-mob-banner.webp'
+import Header from "./components/Header";
+import HeroBanner from "./components/HeroBanner";
+import ContactBulkForm from "./components/ContactBulkForm";
+import ContactUs from "./components/ContactUs";
+import FeaturedItems from "./components/FeaturedItems";
+
+import Testimonial from "./components/Testimonial";
+import Footer from "./components/Footer";
+import CoreCategories from "./components/CoreCategories";
+import EcommercePlatform from "./components/EcommercePlatform";
+import ScrollToTop from "./components/ScrollToTop";
+
+
+
 
 function App() {
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header />
+    <HeroBanner mobileBanner = {mobileBanner} desktopBanner = {desktopBanner} />
+    <CoreCategories /> 
+    <ScrollToTop  />
+    <EcommercePlatform/>
+    <FeaturedItems /> 
+    <ContactBulkForm />
+    <Testimonial />
+    <ContactUs />
+    <Footer />
+    </>
   );
 }
 
