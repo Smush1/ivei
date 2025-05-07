@@ -1,5 +1,5 @@
 import logo from '../images/ivei-logo.png'
-import formSvg from '../images/ivei-logo.png'
+import formSvg from '../images/form-button.svg'
 
 function Header() {
   

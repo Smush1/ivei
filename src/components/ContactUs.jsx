@@ -65,7 +65,7 @@ function ContactUs() {
                     </div>
                     <div className="col-12 field p-0">
                         <label htmlFor="message">Write Us</label>   
-                        <textarea type="text" className="d-block contact-us-msg w-100" />
+                        <textarea type="text" className="d-block contact-us-msg w-100" placeholder='Your message' />
                     </div>
                     <div className='col-12 field p-0'>
                         <input type="submit" className='btn btn-primary submit-btn col-12 mt-3 text-uppercase' />
