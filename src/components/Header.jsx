@@ -1,4 +1,5 @@
 import logo from '../images/ivei-logo.png'
+import formSvg from '../images/ivei-logo.png'
 
 function Header() {
   
@@ -14,7 +15,7 @@ function Header() {
         <div className="container-fluid d-flex align-items-center justify-content-between">
            {/*  <!-- Left-aligned Navigation --> */}
             <div className="d-flex">
-                <button className="navbar-toggler me-3" onClick={handleHeaderBG} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button className="navbar-toggler" onClick={handleHeaderBG} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -28,12 +29,33 @@ function Header() {
             </div>
 
           {/*   <!-- Centered Logo --> */}
-            <a className="navbar-brand mx-auto" href="index.html" rel="noreferrer" aria-label='Logo'>
+            <a className="navbar-brand mx-auto" href="#" rel="noreferrer" aria-label='Logo'>
                 <img src={logo} alt="StonKraft" className="logo-img" fetchPriority='high' /> 
              </a>
 
         {/*     <!-- Right-aligned Button --> */}
             <a href="#bulk-buy" rel="noreferrer" className="d-lg-block d-none corporate-btn" aria-label='Bulk Buy Form'>CONTACT FOR BULK BUYING</a>
+            <a href="#bulk-buy" 
+            rel="noreferrer" 
+            className="d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none form-icon-anchor" 
+            aria-label='Bulk Buy Form'
+            onClick={(e) => {
+              e.preventDefault();
+          
+              const el = document.getElementById("bulk-buy");
+          
+              if (el) {
+                 /* Wait for the next frame, then smooth scroll */
+                requestAnimationFrame(() => {
+                  setTimeout(() => {
+                    el.scrollIntoView({ behavior: "smooth", block: "start" });
+                  }, 50);  /* Delay ensures layout is ready */
+                });
+              }
+            }}
+            >
+              <img className="nav-form-icon"  src={formSvg} alt="Bulk Buy" />
+            </a>
         </div>
         </nav>
       </header>

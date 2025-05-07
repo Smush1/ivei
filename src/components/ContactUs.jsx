@@ -53,15 +53,15 @@ function ContactUs() {
                   <div className="row"> 
                     <div className=" d-inline-block col-6 ps-0">
                         <label htmlFor="name">Your Name*</label>
-                        <input id="name" type="text" name="name" className="d-block contact-us-field w-100" />
+                        <input id="name" type="text" name="name" className="d-block contact-us-field w-100" placeholder='John Doe' required/>
                     </div>
                     <div className=" d-inline-block col-6 pe-0">
                         <label htmlFor="phone">Your Phone Number*</label>
-                        <input id="phone" type="text" name="phone" className="d-block contact-us-field w-100" />
+                        <input id="phone" type="text" name="phone" className="d-block contact-us-field w-100" pattern='[1-9]{1}[0-9]{9}' placeholder='9999999999' required />
                     </div>
                     <div className="col-12 field p-0">
                         <label htmlFor="email">Your Email*</label>
-                        <input id="email" type="text" name="email" className="d-block contact-us-field w-100"  />
+                        <input id="email" type="text" name="email" className="d-block contact-us-field w-100" required placeholder="company@xyz.com" />
                     </div>
                     <div className="col-12 field p-0">
                         <label htmlFor="message">Write Us</label>   

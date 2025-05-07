@@ -1,48 +1,47 @@
 import { useState } from 'react';
 import { FeaturedItemsImage, FeaturedItemsTab } from '../data/featuredItem';
-
+import $ from 'jquery';
 
 
 function FeaturedItems() {
 
     const [viewTab, setViewTab] = useState(true);
+
+     // featured items container
+     
+
+     const toggleView = () => {
+        const section = $('.fi-toggle-section');
+    
+        if (viewTab) {
+          // Show with flex
+          section
+            .css({ display: 'flex', height: 0, overflow: 'hidden' })
+            .animate({ height: section.get(0).scrollHeight }, 500, () => {
+              section.css({ height: '', overflow: '' });
+            });
+        } else {
+          // Hide with animation
+          section
+            .css({ overflow: 'hidden' })
+            .animate({ height: 0 }, 500, () => {
+              section.css({ display: 'none', height: '', overflow: '' });
+            });
+        }
+    
+        setViewTab(!viewTab);
+      };
+
     
 
 
 
-// display and hide the featured items
-    function toggleViewTab(){
-
-        // featured items container
-        const toggleSectionProducts = document.querySelector('.fi-toggle-section');
-
-        const viewTabBtn = document.querySelector('.view-all-btn');
-
-
-
-        setViewTab(!viewTab)
-      console.log(viewTab)
-
-       // console.log(toggleSectionProducts)
-        
-  
-        if(viewTab){
-            toggleSectionProducts.classList.add('d-flex');
-            toggleSectionProducts.classList.remove('unvisible')
-            viewTabBtn.textContent = "Hide"
-        }
-        else{
-            toggleSectionProducts.classList.remove('d-flex');
-            toggleSectionProducts.classList.add('unvisible')
-            viewTabBtn.textContent = "View More";
-        }
-    }
 
   return (
     <>
     <div className='container mb-4' id="featured-products">
         <h2 className='featured-items-heading fw-bold'>Featured Products</h2>
-        <p >We bring you a thoughtfully curated range of handmade products across diverse categories</p>
+        <p >Explore our range of finest handmade products across popular categories</p>
             <div className='row fi-grid--container '>
                 {/* Start of rendering 8 featured product items */}
                     {
@@ -83,55 +82,18 @@ function FeaturedItems() {
 
             {/* End of rendering 4 featured product items */}
 
-            <div className='view-all-btn-container justify-content-center d-flex'>
-               <button type="button" onClick={toggleViewTab} className="btn btn-primary w-25 view-all-btn py-3" aria-label='show or hide'>View More</button>
+            <div className='view-all-btn-container d-flex'>
+               <div className='view-all-single-btn-container'>
+               <button type="button" onClick={toggleView} className="btn btn-primary view-all-btn py-3" aria-label='show or hide'>{viewTab ? 'View More' : 'View Less'}</button>
+               </div>
+               <div className='view-all-single-btn-container'>
+               <a href='https://indusmela.in/collections/stonkraft' rel="noreferrer" target='_blank' className="btn btn-primary view-all-btn py-3 " aria-label='explore'>Explore MORE</a>
+               </div>
              </div>
+
+           
         </div>
 
-       {/*  <!-- Button trigger modal --> */}
-
-        {/* <!-- Modal --> */}
-        { /*
-        AllFeaturedItems.map((featureditem, index)=>(
-
-        <div className="modal fade" id={featureditem.modalId} data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="false" key={index}>
-        <div className="modal-dialog modal-dialog-centered">
-            <div className="modal-content">
-            <div className="modal-header">
-                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-                <div className='d-flex align-content-center pop-up-flex-container'>
-                    <img src={featureditem.imageLink} className='w-50 fi-pop-up-img' alt={FeaturedItemsImage.altText}/>
-                    <div className='pop-up-content'>
-                        <h5>{featureditem.altText}</h5>
-                        <p className='pop-up-price'>₹{ featureditem.price }</p>
-                        <p className='pop-up-para'> { featureditem.desc }</p>
-                        <a target="_blank" rel="noreferrer" href={featureditem.productLink} className='btn btn-outline-danger w-100 buy-btn submit py-3'> BUY NOW </a>
-                    <table className=' mt-4'>
-                      <tbody>
-                        <tr>
-                            <td className='w-50'>SKU</td>
-                            <td className='w-50'>{featureditem.sku}</td>
-                        </tr>
-                        <tr>
-                            <td>Type</td>
-                            <td>{featureditem.type}</td>
-                        </tr> 
-                        <tr>
-                            <td>Vendor</td>
-                            <td>Stonkraft</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        </div>
-        ))
-*/}
 
                     
     </>

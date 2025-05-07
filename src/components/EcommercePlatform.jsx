@@ -23,7 +23,7 @@ function EcommercePlatform() {
             <div className="col-12 col-md-6">
                 <a href="https://indusmela.in/collections/stonkraft" target="_blank" rel="noreferrer" className="text-decoration-none">
                     <div className="indusmela-box store-box">
-                        <span>Shop from our<br/>one-stop store!</span>
+                        <span>Shop from our <br/> one-stop store!</span>
                         <img src={indusmela} alt="IndusMela" />
                     </div>
                 </a>
