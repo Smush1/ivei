@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ivei/static/css/main.ce4d2742.css",
-    "main.js": "/ivei/static/js/main.dfae2b8e.js",
+    "main.js": "/ivei/static/js/main.917cf0aa.js",
     "static/js/453.76acbd0d.chunk.js": "/ivei/static/js/453.76acbd0d.chunk.js",
     "static/media/category7-img2.png": "/ivei/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/ivei/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -30,6 +30,7 @@
     "static/media/stonkraft-mob-banner.webp": "/ivei/static/media/stonkraft-mob-banner.10e700616b2b8d90660b.webp",
     "static/media/featured-img-12.webp": "/ivei/static/media/featured-img-12.54ba31c9962a2aa6abe9.webp",
     "static/media/featured-img-9.webp": "/ivei/static/media/featured-img-9.a05526b577148c288e29.webp",
+    "static/media/form-button.svg": "/ivei/static/media/form-button.17a24eedc9e7d62c22fe44415b843fe4.svg",
     "static/media/featured-img-11.webp": "/ivei/static/media/featured-img-11.9a13f930e23d9e110f35.webp",
     "static/media/category3-img1.webp": "/ivei/static/media/category3-img1.51cfddd1ce8e2ac1aae0.webp",
     "static/media/category2-img1.webp": "/ivei/static/media/category2-img1.d62f6ef7b8d50c47d55c.webp",
@@ -43,18 +44,18 @@
     "static/media/category8-img1.webp": "/ivei/static/media/category8-img1.c99fac9045628b5b17ed.webp",
     "static/media/slick.svg": "/ivei/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ivei/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/ivei/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/ivei/index.html",
+    "static/media/slick.ttf": "/ivei/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/location.svg": "/ivei/static/media/location.977dffeb26b4a44bc9e687a55a43c968.svg",
     "static/media/slick.woff": "/ivei/static/media/slick.295183786cd8a1389865.woff",
     "static/media/phone.svg": "/ivei/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/ivei/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.ce4d2742.css.map": "/ivei/static/css/main.ce4d2742.css.map",
-    "main.dfae2b8e.js.map": "/ivei/static/js/main.dfae2b8e.js.map",
+    "main.917cf0aa.js.map": "/ivei/static/js/main.917cf0aa.js.map",
     "453.76acbd0d.chunk.js.map": "/ivei/static/js/453.76acbd0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce4d2742.css",
-    "static/js/main.dfae2b8e.js"
+    "static/js/main.917cf0aa.js"
   ]
 }
