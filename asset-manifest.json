@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ivei/static/css/main.0e8c3663.css",
-    "main.js": "/ivei/static/js/main.26e7d6ef.js",
+    "main.js": "/ivei/static/js/main.c19eb289.js",
     "static/js/453.76acbd0d.chunk.js": "/ivei/static/js/453.76acbd0d.chunk.js",
     "static/media/category7-img2.png": "/ivei/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/ivei/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -18,14 +18,14 @@
     "static/media/testimonial-1.png": "/ivei/static/media/testimonial-1.ecb9d3d4ae67ae739dc3.png",
     "static/media/featured-img-9.png": "/ivei/static/media/featured-img-9.f1e22533fb9739e0af17.png",
     "static/media/featured-img-11.png": "/ivei/static/media/featured-img-11.047138b2a2321bfeb2a3.png",
-    "static/media/featured-img-5.png": "/ivei/static/media/featured-img-5.8d694e870ff2e6fbce9b.png",
     "static/media/testimonial-2.png": "/ivei/static/media/testimonial-2.c6fe4e097748b1a47d6f.png",
     "static/media/featured-img-10.png": "/ivei/static/media/featured-img-10.f5ea9080d27e21bf1c84.png",
     "static/media/featured-img-2.png": "/ivei/static/media/featured-img-2.b674f1bd7453b7d3fe02.png",
     "static/media/ivei-mob-banner.png": "/ivei/static/media/ivei-mob-banner.fbb37044f98831d3bbe5.png",
     "static/media/featured-img-12.png": "/ivei/static/media/featured-img-12.b911ba98869182769d66.png",
+    "static/media/featured-img-5.png": "/ivei/static/media/featured-img-5.ab6f0be2310c38a32482.png",
     "static/media/featured-img-8.png": "/ivei/static/media/featured-img-8.341da45c7c769698b21a.png",
-    "static/media/featured-img-6.png": "/ivei/static/media/featured-img-6.ce7bfaed3546b26b751b.png",
+    "static/media/featured-img-6.png": "/ivei/static/media/featured-img-6.c3d75cf73b71e89f4e93.png",
     "static/media/featured-img-4.png": "/ivei/static/media/featured-img-4.a23383c173a459f2cdd1.png",
     "static/media/featured-img-1.png": "/ivei/static/media/featured-img-1.a578ae4492f3f0e7d5cc.png",
     "static/media/featured-img-3.jpg": "/ivei/static/media/featured-img-3.032a72e00628575a0369.jpg",
@@ -51,11 +51,11 @@
     "static/media/phone.svg": "/ivei/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/ivei/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.0e8c3663.css.map": "/ivei/static/css/main.0e8c3663.css.map",
-    "main.26e7d6ef.js.map": "/ivei/static/js/main.26e7d6ef.js.map",
+    "main.c19eb289.js.map": "/ivei/static/js/main.c19eb289.js.map",
     "453.76acbd0d.chunk.js.map": "/ivei/static/js/453.76acbd0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e8c3663.css",
-    "static/js/main.26e7d6ef.js"
+    "static/js/main.c19eb289.js"
   ]
 }
