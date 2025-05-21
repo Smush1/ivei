@@ -30,7 +30,7 @@ function Header() {
 
           {/*   <!-- Centered Logo --> */}
             <a className="navbar-brand mx-auto" href="#" rel="noreferrer" aria-label='Logo'>
-                <img src={logo} alt="StonKraft" className="logo-img" fetchPriority='high' /> 
+                <img src={logo} alt="IVEI" className="logo-img" fetchPriority='high' /> 
              </a>
 
         {/*     <!-- Right-aligned Button --> */}

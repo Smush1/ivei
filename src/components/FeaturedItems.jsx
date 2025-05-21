@@ -87,7 +87,7 @@ function FeaturedItems() {
                <button type="button" onClick={toggleView} className="btn btn-primary view-all-btn py-3" aria-label='show or hide'>{viewTab ? 'View More' : 'View Less'}</button>
                </div>
                <div className='view-all-single-btn-container'>
-               <a href='https://indusmela.in/collections/stonkraft' rel="noreferrer" target='_blank' className="btn btn-primary view-all-btn py-3 " aria-label='explore'>Explore MORE</a>
+               <a href='https://indusmela.in/collections/ivei' rel="noreferrer" target='_blank' className="btn btn-primary view-all-btn py-3 " aria-label='explore'>Explore MORE</a>
                </div>
              </div>
 

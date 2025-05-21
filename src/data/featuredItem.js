@@ -1,15 +1,15 @@
-import featuredImage1 from "../images/featured-img-1.webp" 
-import featuredImage2 from "../images/featured-img-2.webp" 
-import featuredImage3 from "../images/featured-img-3.webp" 
-import featuredImage4 from "../images/featured-img-4.webp" 
-import featuredImage5 from "../images/featured-img-5.webp" 
-import featuredImage6 from "../images/featured-img-6.webp" 
-import featuredImage7 from "../images/featured-img-7.webp" 
-import featuredImage8 from "../images/featured-img-8.webp" 
-import featuredImage9 from "../images/featured-img-9.webp" 
-import featuredImage10 from "../images/featured-img-10.webp" 
-import featuredImage11 from "../images/featured-img-11.webp" 
-import featuredImage12 from "../images/featured-img-12.webp" 
+import featuredImage1 from "../images/featured-img-1.png" 
+import featuredImage2 from "../images/featured-img-2.png" 
+import featuredImage3 from "../images/featured-img-3.jpg" 
+import featuredImage4 from "../images/featured-img-4.png" 
+import featuredImage5 from "../images/featured-img-5.png" 
+import featuredImage6 from "../images/featured-img-6.png" 
+import featuredImage7 from "../images/featured-img-7.png" 
+import featuredImage8 from "../images/featured-img-8.png" 
+import featuredImage9 from "../images/featured-img-9.png" 
+import featuredImage10 from "../images/featured-img-10.png" 
+import featuredImage11 from "../images/featured-img-11.png" 
+import featuredImage12 from "../images/featured-img-12.png" 
 
 
 
@@ -20,97 +20,97 @@ const FeaturedItemsImage =[
     {
         "id" : 1,
         "imageLink" : featuredImage1,
-        "altText": `StonKraft Collectible Black Marble and Malachite Chess Board Set + Wooden Brass Combo Chess Pieces - Decorative Stone Chess - Home Decor`,
+        "altText": `IVEI wooden miniature decorative fridge magnets - wooden handcrafted miniature collection - quirky magnets - budget gifts - set of 6 - for refrigerator`,
         "desc": "",
-        "sku":"B00JXETG4U",
+        "sku":"B00T78QY92",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-collectible-black-marble-and-malachite-chess-board-set-wooden-brass-combo-chess-pieces-pawns-decorative-stone-chess-home-decor-15-inches?variant=45401043370153",
+        "productLink": "https://indusmela.in/products/ivei-wooden-miniature-decorative-fridge-magnets-wooden-handcrafted-miniature-collection-quirky-magnets-budget-gifts-set-of-6-for-refrigerator?_pos=8&_fid=d1c40f895&_ss=c",
         "modalId": "featuredImg1",
-        "price": "13,305.00",
+        "price": "248.00",
         "salePrice": ""
     },
     {
         "id" : 2,
         "imageLink" : featuredImage2,
-        "altText": `StonKraft Collectible Green Marble Chess Board Set + Brass Wooden Combo Pieces Pawns - Decorative Stone Chess - Home Decor`,
+        "altText": `IVEI Warli Desk Calendar with Pin Board - Desk Organizer - Utility Desktop Calendar - Table Top Calendar Set - Desk Calendar Holder with Pin Board for Home, Office Desk Decor, Study Room`,
         "desc": "",
-        "sku":"B00HXDDQDK",
+        "sku":"B078NVKHY3",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-collectible-green-marble-chess-board-set-brass-wooden-combo-pieces-pawns-decorative-stone-chess-home-decor-20-inches",
+        "productLink": "https://indusmela.in/products/ivei-warli-desk-calendar-with-pin-board-desk-organizer-utility-desktop-calendar-table-top-calendar-set-desk-calendar-holder-with-pin-board-for-home-office-desk-decor-study-room-blue?_pos=19&_fid=2e722a4fc&_ss=c",
         "modalId": "featuredImg2",
-        "price": "17,431.00",
+        "price": "546.00",
         "salePrice": ""
     },
     {
         "id" : 3,
         "imageLink" : featuredImage3,
-        "altText": `StonKraft - Wooden Chess Pieces Pawn with extra queens Chessmen Figurine Pieces Coins (3.75" King Height)`,
+        "altText": `IVEI DIY MDF Wood Sheet Round Craft Magnet with Primer - Plain MDF Fridge Magnet Blanks Cutouts - 3mm - 2in Diameter for Painting Wooden Craft, Decoupage, Resin Art Work & Decoration`,
         "desc": "",
-        "sku":"B00I2NW04Q",
+        "sku":"B08LYTW4PL",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-chess-pieces-pawn-with-extra-queens-chessmen-figurine-pieces-coins-3-75-king-height",
+        "productLink": "https://indusmela.in/products/ivei-diy-mdf-wood-sheet-round-craft-magnet-with-primer-plain-mdf-fridge-magnet-blanks-cutouts-set-of-20-3mm-2in-diameter-for-painting-wooden-craft-decoupage-resin-art-work-decoration?_pos=1&_fid=189dcf856&_ss=c",
         "modalId": "featuredImg3",
-        "price": "3,084.00",
+        "price": "238.00",
         "salePrice": ""
     },
     {
         "id" : 4,
         "imageLink" : featuredImage4,
-        "altText": `StonKraft Brass Wooden Chess Pieces Pawns Chessmen Figure Figurine Pieces Coins`,
+        "altText": `IVEI Minimal Perpetual Desk Calendar - Wooden Calendar - Block Calendar for Office Desk Decor - Wooden Desktop Calendar for Home, School, Office - Natural`,
         "desc": "",
-        "sku":"B0798NNDYC",
+        "sku":"B07DG328MS",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-collector-edition-brass-chess-pieces-pawns-chessmen-chess-coins-figurine-pieces-3-5-roman?variant=44718598684841",
+        "productLink": "https://indusmela.in/products/ivei-minimal-perpetual-desk-calendar-wooden-calendar-block-calendar-for-office-desk-decor-wooden-desktop-calendar-for-home-school-office-natural?_pos=2&_fid=361849a45&_ss=c",
         "modalId": "featuredImg4",
-        "price": "5,102.00",
+        "price": "341.00",
         "salePrice": ""
     },
     {
         "id" : 5,
         "imageLink" : featuredImage5,
-        "altText": `StonKraft - 19" x 15" (Chess Board Size 12" x 12") Roll-Up Leather Chess Set with Wooden Chess Pieces | Comes with Innovative Carry Pouch`,
+        "altText": `IVEI Wooden Endless Desk Calendar with White Board | Motivational Quote | Without Quote`,
         "desc": "",
-        "sku":"B07BDK9NQV",
+        "sku":"B07WV55TTJ",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-19-x-15-chess-board-size-12-x-12-roll-up-leather-chess-set-with-wooden-chess-pieces-brown-comes-with-innovative-carry-pouch?variant=45206520955049",
+        "productLink": "https://indusmela.in/products/ivei-wooden-desk-calendar-with-white-board-and-a-quote-utility-desk-calendar-wooden-perpetual-calendar-set-for-desk-decor-study-room-endless-calendar-with-white-board-for-office-school-home?_pos=1&_sid=f7f742110&_ss=r&variant=45341431005353",
         "modalId": "featuredImg5",
-        "price": "5,420.00",
+        "price": "490.00",
         "salePrice": ""
     },
     {
         "id" : 6,
         "imageLink" : featuredImage6,
-        "altText": `StonKraft 18.2'' x 18.2'' Tournament Roll Up Vinyl Chess with Pieces - Ideal for Professional Players`,
+        "altText": `IVEI Wooden Perpetual Desk Calendar - Wooden Perpetual Calendar Set for Desk Decor, Study Room- Endless Calendar for Office, School, Home - Sustainable Calendar (Black)`,
         "desc": "",
-        "sku":"B00HXCMO9I",
+        "sku":"B0BKQYDNHT",
         "type": "",
-        "productLink": "https://indusmela.in/products/17-x-17-tournament-roll-up-chess-without-pieces-ideal-for-professional-players?variant=45206552838313",
+        "productLink": "https://indusmela.in/products/ivei-wooden-perpetual-desk-calendar-wooden-perpetual-calendar-set-for-desk-decor-study-room-endless-calendar-for-office-school-home-sustainable-calendar-black-print?_pos=2&_sid=2ceda8275&_ss=r",
         "modalId": "featuredImg6",
-        "price": "709.00",
+        "price": "392.00",
         "salePrice": ""
     },
     {
         "id" : 7,
         "imageLink" : featuredImage7,
-        "altText": `StonKraft Collectible Wooden Folding Chess Game Board Set+Wooden Crafted Pieces with Extra Queen`,
+        "altText": `IVEI Wooden DIY Blank Name Plate Base Wood Sheet Craft - Plain Wooden Board Cutouts for Painting Wooden Sheet Craft, Decoupage, Resin Art Work & Decoration (Square, Rectangular, Circular)`,
         "desc": "",
-        "sku":"B01HWDE81Y",
+        "sku":"B0BKQY96BD-1",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-18-x-18-collectible-wooden-folding-chess-game-board-set-wooden-crafted-pieces-with-extra-queen",
+        "productLink": "https://indusmela.in/products/ivei-wooden-diy-blank-name-plate-base-wood-sheet-craft-plain-wooden-board-cutouts-for-painting-wooden-sheet-craft-decoupage-resin-art-work-decoration-square?_pos=4&_fid=2e722a4fc&_ss=c",
         "modalId": "featuredImg7",
-        "price": "6,099.00",
+        "price": "610.00",
         "salePrice": ""
     },
     {
         "id" : 8,
         "imageLink" : featuredImage8,
-        "altText": `StonKraft Brass Chess Board Game Set with 100% Brass Chess Pieces Chessmen Coins (12" x 12" Inches)`,
+        "altText": `IVEI Hexagon Shaped Combination Board with Magnet Board, Pin Board & Whiteboard - Set of 2 - Innovative Organizer for Kids and Adults with Magnets to Do Boards Gift for Home, Office- Dark blue, Grey, Pink, Yellow`,
         "desc": "",
-        "sku":"B00FX1W0CW",
+        "sku":"B09KLKWHY8",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-brass-chess-board-game-set-with-100-brass-chess-pieces-chessmen-coins-12-x-12-inches",
+        "productLink": "https://indusmela.in/products/ivei-hexagon-shaped-combination-board-with-magnet-board-pin-board-whiteboard-set-of-2-dark-blue-innovative-organizer-for-kids-and-adults-with-magnets-to-do-boards-gift-for-home-office?_pos=25&_fid=2e722a4fc&_ss=c",
         "modalId": "featuredImg8",
-        "price": "7,828.00",
+        "price": "1,376.00",
         "salePrice": ""
     }
 ]
@@ -121,25 +121,25 @@ const FeaturedItemsTab =[
     {
         "id" : 9,
         "imageLink" : featuredImage9,
-        "altText": `StonKraft Wooden Doll House Dollhouse - Home Decor, Construction Toy, Modeling Kit, School Project - Easy to Assemble 3D Puzzle`,
+        "altText": `IVEI DIY MDF Ornate Round Placemat - Set 0f 2-Cutwork Painting Wooden Sheet Craft - for Decoupage MDF Plains, Resin Artwork & Decoration`,
         "desc": "",
-        "sku":"B099X2RV1P",
+        "sku":"B08YJL35Y8",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-3d-puzzle-beach-house-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble",
+        "productLink": "https://indusmela.in/products/ivei-diy-mdf-ornate-round-placemat-set-0f-2-cutwork-painting-wooden-sheet-craft-for-decoupage-mdf-plains-resin-art-work-decoration?_pos=21&_fid=93191cf43&_ss=c",
         "modalId": "featuredImg9",
-        "price": "1,361.00",
+        "price": "678.00",
         "salePrice": ""
     },
     {
         "id" : 10,
         "imageLink" : featuredImage10,
-        "altText": `StonKraft Wooden Doll House Dollhouse - Home Decor, Construction Toy, Modeling Kit, School Project - Easy to Assemble 3D Puzzle`,
+        "altText": `IVEI Combination Board - Pin and White Board Combo - Dry Erase - Bulletin - Metal Board - Calendar | All Purpose to-do Boards for Office, School, Home | 15inX19in (BIG)`,
         "desc": "",
-        "sku":"B0757XK135",
+        "sku":"B095HRP88Q",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-doll-house-dollhouse-home-decor-construction-toy-modeling-kit-school-project-easy-to-assemble-3d-puzzle",
+        "productLink": "https://indusmela.in/products/ivei-bulletin-board-pin-and-white-board-combo-dry-erase-combination-metal-board-calendar-all-purpose-to-do-boards-for-office-school-home-15in-x-19in-with-metal-board-big-grey",
         "modalId": "featuredImg10",
-        "price": "520.00",
+        "price": "1,160.00",
         "salePrice": ""
     },
     {
@@ -147,23 +147,23 @@ const FeaturedItemsTab =[
         "imageLink" : featuredImage11,
         "altText": `StonKraft Wooden Carrom Coins with Wooden Box`,
         "desc": "",
-        "sku":"B084GSB176",
+        "sku":"B019RFCV5A",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-wooden-carrom-coins-with-wooden-box",
+        "productLink": "https://indusmela.in/products/ivei-pink-pin-board-and-whiteboard-combination-dry-erase-board-bulletin-board-innovative-organizer-for-kids-and-adults-with-a-handcrafted-turtle?_pos=2&_fid=ae523fded&_ss=c",
         "modalId": "featuredImg11",
-        "price": "416.00",
+        "price": "631.00",
         "salePrice": ""
     },
     {
         "id" : 12,
         "imageLink" : featuredImage12,
-        "altText": `StonKraft Dog Toys Chew Products Set – Puppies Teething Rope Toys Pack, Games for Pets | Suitable for All Dogs, Non-Toxic, Washable & Safe for Pets | Colourful, Bouncy & Fun (Set 5)`,
+        "altText": `IVEI Combination Board with Magnet Board, Pin Board & Whiteboard- Set of 3- Dark Blue -Innovative Organizer for Kids and Adults with Magnets- To Do Boards - Best Gift for Home, Office, School- (Big) Blue, Pink,Orange`,
         "desc": "",
-        "sku":"B0DKTP6FMW",
+        "sku":"B09KM9GC66",
         "type": "",
-        "productLink": "https://indusmela.in/products/stonkraft-dog-toys-chew-products-set-puppies-teething-rope-toys-pack-games-for-pets-suitable-for-all-dogs-non-toxic-washable-safe-for-pets-colourful-bouncy-fun-set-5",
+        "productLink": "https://indusmela.in/products/ivei-combination-board-with-magnet-board-pin-board-whiteboard-big-set-of-3-dark-blue-innovative-organizer-for-kids-and-adults-with-magnets-to-do-boards-best-gift-for-home-office-school?_pos=3&_fid=ae523fded&_ss=c",
         "modalId": "featuredImg12",
-        "price": "770.00",
+        "price": "1,738.00",
         "salePrice": ""
     }
 ]

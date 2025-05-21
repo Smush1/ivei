@@ -1,25 +1,25 @@
-import category1img1 from "../images/category1-img1.webp"
+import category1img1 from "../images/category1-img1.png"
 import category1img2 from "../images/category1-img2.png"
 
-import category2img1 from "../images/category2-img1.webp"
+import category2img1 from "../images/category2-img1.png"
 import category2img2 from "../images/category2-img2.png"
 
-import category3img1 from "../images/category3-img1.webp"
+import category3img1 from "../images/category3-img1.png"
 import category3img2 from "../images/category3-img2.png"
 
-import category4img1 from "../images/category4-img1.webp"
+import category4img1 from "../images/category4-img1.png"
 import category4img2 from "../images/category4-img2.png"
 
 import category5img1 from "../images/category5-img1.png"
 import category5img2 from "../images/category5-img2.png"
 
-import category6img1 from "../images/category6-img1.webp"
+import category6img1 from "../images/category6-img1.png"
 import category6img2 from "../images/category6-img2.png"
 
-import category7img1 from "../images/category7-img1.webp"
+import category7img1 from "../images/category7-img1.png"
 import category7img2 from "../images/category7-img2.png"
 
-import category8img1 from "../images/category8-img1.webp"
+import category8img1 from "../images/category8-img1.png"
 import category8img2 from "../images/category8-img2.png"
 
 
@@ -33,68 +33,68 @@ import category8img2 from "../images/category8-img2.png"
 const coreCategories = [ 
     {
     "id": 1,
-    "categoryTitle": "Tournament Chess Boards ",
+    "categoryTitle": "Desk Calendars",
     "categoryImage": category1img1,
     "dataTarget": "#toysgames",
     "altText" : "Toys & Games",
-    "viewMoreLink": "https://indusmela.in/collections/tournament-chess"
+    "viewMoreLink": "https://indusmela.in/collections/desk-calendar?sort_by=best-selling&filter.p.vendor=IVEI&filter.v.price.gte=&filter.v.price.lte="
     },
     {
     "id": 2,
-    "categoryTitle": "Wooden Chess Boards",
+    "categoryTitle": "Pin/White Boards",
     "categoryImage": category2img1,
     "dataTarget": "#homedecor",
     "altText" : "Home Decor",
-    "viewMoreLink": "https://indusmela.in/collections/wooden-chess"
+    "viewMoreLink": "https://indusmela.in/search?q=ivei+pinboard+whiteboard&_pos=4&_psq=Pin&_ss=e&_v=1.0"
     },
     {
     "id": 3,
-    "categoryTitle": "Marble Chess Boards",
+    "categoryTitle": "Mini Black/White Boards",
     "categoryImage": category3img1,
     "dataTarget": "#homeorganiser",
     "altText" : "Home Organiser",
-    "viewMoreLink": "https://indusmela.in/collections/marble-chess"
+    "viewMoreLink": "https://indusmela.in/search?q=Mini+White+Boards&options%5Bprefix%5D=last"
     
     },
     {
     "id": 4,
-    "categoryTitle": "Chess Pieces",
+    "categoryTitle": "DIY MDF Cutouts",
     "categoryImage": category4img1,
     "dataTarget": "#artscraft",
     "altText" : "Arts & Craft",
-    "viewMoreLink": "https://indusmela.in/collections/chess-pieces"
+    "viewMoreLink": "https://indusmela.in/search?q=DIY+MDF+Cutouts&options%5Bprefix%5D=last "
     },
     {
     "id": 5,
-    "categoryTitle": "Premium Chess Sets",
+    "categoryTitle": "DIY Craft Items",
     "categoryImage": category5img1,
     "dataTarget": "#kitchenbathroom",
     "altText" : "Kitchen & Bathroom",
-    "viewMoreLink": "https://indusmela.in/collections/premium-chess"
+    "viewMoreLink": "https://indusmela.in/search?q=diy+craft+items&options%5Bprefix%5D=last&filter.p.vendor=IVEI&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
     },
     {
     "id": 6,
-    "categoryTitle": "Puzzles and 3D DIY Kits",
+    "categoryTitle": "Stationary Supplies",
     "categoryImage": category6img1,
     "dataTarget": "#religiousitems",
     "altText" : "Religious Item",
-    "viewMoreLink": "https://indusmela.in/collections/puzzles-construction-toys"
+    "viewMoreLink": "https://indusmela.in/search?q=stationery&options%5Bprefix%5D=last&filter.p.vendor=IVEI&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
     },
     {
     "id": 7,
-    "categoryTitle": "Sports Accessories",
+    "categoryTitle": "Desk Organizers",
     "categoryImage": category7img1,
     "dataTarget": "#sportsequipment",
     "altText" : "Sports and Equipments",
-    "viewMoreLink": "https://indusmela.in/collections/sports"
+    "viewMoreLink": "https://indusmela.in/search?q=desk+organizer&options%5Bprefix%5D=last&filter.p.vendor=IVEI&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
     },
     {
     "id": 8,
-    "categoryTitle": `Pet Accessories`,
+    "categoryTitle": `To Do/Fridge Planners`,
     "categoryImage": category8img1,
     "dataTarget": "#statuessculptures",
     "altText" : "Statues & Sculptures",
-    "viewMoreLink": "https://indusmela.in/collections/pet-toys"
+    "viewMoreLink": "https://indusmela.in/search?q=planner&options%5Bprefix%5D=last&filter.p.vendor=IVEI&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
     }
 ]
 

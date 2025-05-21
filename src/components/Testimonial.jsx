@@ -7,6 +7,11 @@ import Testimonials from '../data/testimonials'
 
 function Testimonial() {
 
+  const [activeSlide, setActiveSlide] = useState(0)
+  
+
+
+
 // State to track which testimonial's "Read more" is expanded
 const [expanded, setExpanded] = useState({});
 

@@ -18,7 +18,7 @@ function Footer() {
                         <div className="course-links-widget widget">
                             <h5 className="widget-title">Other Links</h5>
                             <ul className="courses-link-list">
-                                <li><a href="https://indusmela.in/collections/stonkraft"  target="_blank" rel="noreferrer">Shop StonKraft</a></li>
+                                <li><a href="https://indusmela.in/collections/ivei"  target="_blank" rel="noreferrer">Shop IVEI</a></li>
                                 <li><a href="https://indusretailgrp.odoo.com/"  target="_blank" rel="noreferrer">Our Group</a></li>
                                 <li><a href="https://www.sellglobal.in/"  target="_blank" rel="noreferrer">SellGlobal</a></li>
                                 <li><a href="#contact-us" rel="noreferrer">Contact Us</a></li>

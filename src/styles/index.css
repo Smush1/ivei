@@ -64,7 +64,7 @@ body{
 
 .corporate-btn {
   background-color: var(--LIGHT-COLOR); 
-  color: var(--WHITE-CLR);
+  color: var(--BLACK-CLR);
   padding: 10px 20px;
   border-radius: var(--BTN-BORDER-RADIUS);
   -webkit-border-radius: var(--BTN-BORDER-RADIUS);
@@ -73,10 +73,11 @@ body{
   -o-border-radius: var(--BTN-BORDER-RADIUS);
   text-decoration: none;
   font-size: 14px;
+  font-weight: bold;
 }
 
 .corporate-btn:hover {
-  background-color: var(--BLACK-CLR);
+  background-color: var(--DARK-COLOR);
 }
 
 /* Responsive Adjustments */
@@ -142,7 +143,7 @@ body{
 }
 
 .form-icon-anchor{
-  margin-left: clamp(0.3rem, 5vw, 11rem);
+  margin-left: clamp(0.3rem, 15vw, 11rem);
 }
 
 
@@ -211,7 +212,7 @@ body{
 
 
 .hero-banner-link{
-  color: var(--WHITE-CLR);
+  color: var(--BLACK-CLR);
   text-decoration: underline;
 }
 
@@ -248,17 +249,20 @@ body{
   text-align: left;
   max-width: 45%;
   z-index: 10;
+  background-color: var(--WHITE-CLR);
+  padding: 2.5rem;
+  border-radius: 20px;
 }
 
 .carousel-caption h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: var(--WHITE-CLR);
+  color: var(--BLACK-CLR);
 }
 
 .carousel-caption p {
   font-size: 1.1rem;
-  color: var(--WHITE-CLR);
+  color: var(--BLACK-CLR);
   margin-bottom: 20px;
 }
 
@@ -306,12 +310,13 @@ body{
   -o-border-radius: var(--BTN-BORDER-RADIUS);
   padding: 10px 20px;
   font-size: 1rem;
-  color: var(--WHITE-CLR);
+  color: var(--BLACK-CLR);
   border: none;
+  font-weight: bold;
 }
 
 .btn-custom:hover {
-  background-color: var(--BLACK-CLR);
+  background-color: var(--DARK-COLOR);
 }
 
 
@@ -378,13 +383,14 @@ body{
   }
 
   .carousel-caption {
-      width: 100%;
+      width: 90%;
       top: 4%;
       text-align: center;
-      left: 51.25%;
+      left: 50.25%;
       transform: translateX(-50%);
       z-index: 10;
-      padding-right: 10px;
+      padding: 10px;
+      height: 21rem;
   }
 
   .carousel-caption h1 {
@@ -511,7 +517,7 @@ body{
 }
 
 .view-more-btn {
-  color: #fff;
+  color: var(--BLACK-CLR);
   font-size: 15px;
   font-weight: 700;
 }
@@ -751,6 +757,7 @@ justify-content: center;
   color: var(--DARK-COLOR);
   text-transform: uppercase;
   border-radius: var(--BTN-BORDER-RADIUS);
+  font-weight: bold;
 }
 
 @media (max-width: 768px){
@@ -761,9 +768,8 @@ justify-content: center;
 }
 
 .buy-btn:hover, .buy-btn:active{
-  background-color: var(--LIGHT-COLOR)!important;
+  background-color: var(--DARK-COLOR)!important;
   color: var(--WHITE-CLR);
-  border: none;
 }
 
 
@@ -805,14 +811,16 @@ justify-content: center;
   width: 100%;
   border-radius: var(--BTN-BORDER-RADIUS);
   border: 1px solid var(--LIGHT-COLOR)!important;
+  font-weight: bold;
+  border: none!important;
+  color: var(--BLACK-CLR);
+  
 }
 
-.view-all-btn:any-link{
-  background-color: var(--LIGHT-COLOR)!important;
-  color: var(--WHITE-CLR)
+
+.view-all-btn:hover{
+  background-color: var(--DARK-COLOR)!important;
 }
-
-
 
 
 
@@ -832,10 +840,6 @@ justify-content: center;
   }
 }
 
-.view-all-btn:hover{
-  color: var(--LIGHT-COLOR);
-  background-color: var(--WHITE-CLR)!important; 
-}
 
 
 
@@ -850,7 +854,7 @@ justify-content: center;
 }
 
 .bulk-contact-inner-container{
-  background-image: url('../images/contact-bulk-buy-bg.webp');
+  background-image: url('../images/contact-bulk-buy-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 40px;
@@ -1029,8 +1033,14 @@ justify-content: center;
   border-radius: var(--BTN-BORDER-RADIUS);
   border: none!important;
   padding: 10px;
+  font-weight: bold;
+  color: var(--BLACK-CLR);
 }
 
+
+.submit-btn:hover{
+  background-color: var(--DARK-COLOR)!important;
+}
 
 @media (max-width: 768px){
   .bulk-contact-form-container{
@@ -1266,7 +1276,6 @@ justify-content: center;
 
 .right-contact-us label{
   font-size: 12px;
-  display: none;
 }
 
 
@@ -1289,6 +1298,10 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
   }  
+
+  .right-contact-us label{
+    display: none;
+  }
 }
 
 
@@ -1622,4 +1635,8 @@ ul {
       flex-direction: column !important;
       height: 240px;
   }
+}
+
+.slick-slide{
+  aria-hidden: false;
 }

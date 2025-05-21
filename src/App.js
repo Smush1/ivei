@@ -1,5 +1,5 @@
-import desktopBanner from './images/stonkraft-desk-banner.webp'
-import mobileBanner from './images/stonkraft-mob-banner.webp'
+import desktopBanner from './images/ivei-desk-banner.png'
+import mobileBanner from './images/ivei-mob-banner.png'
 import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
 import ContactBulkForm from "./components/ContactBulkForm";
@@ -18,7 +18,7 @@ import ScrollToTop from "./components/ScrollToTop";
 function App() {
 
 
-
+  
 
   return (
     <>
