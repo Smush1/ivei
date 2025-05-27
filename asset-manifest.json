@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ivei/static/css/main.8a67734d.css",
-    "main.js": "/ivei/static/js/main.c8e568fb.js",
+    "main.js": "/ivei/static/js/main.0f721716.js",
     "static/js/453.76acbd0d.chunk.js": "/ivei/static/js/453.76acbd0d.chunk.js",
     "static/media/category7-img2.png": "/ivei/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/ivei/static/media/category1-img2.5c1de73616711a38ccac.png",
@@ -30,14 +30,14 @@
     "static/media/featured-img-1.png": "/ivei/static/media/featured-img-1.a578ae4492f3f0e7d5cc.png",
     "static/media/featured-img-3.jpg": "/ivei/static/media/featured-img-3.032a72e00628575a0369.jpg",
     "static/media/featured-img-7.png": "/ivei/static/media/featured-img-7.91a4720498586d7ac5c1.png",
+    "static/media/category6-img1.png": "/ivei/static/media/category6-img1.e9ba16c59d79bc855929.png",
     "static/media/category8-img1.png": "/ivei/static/media/category8-img1.c02921478eeaba488223.png",
-    "static/media/category3-img1.png": "/ivei/static/media/category3-img1.f4ea55f1ee19c65a8877.png",
-    "static/media/category1-img1.png": "/ivei/static/media/category1-img1.541f520090459dcd44b5.png",
     "static/media/category5-img1.png": "/ivei/static/media/category5-img1.6d968147e9a2a6da5cdc.png",
     "static/media/category7-img1.png": "/ivei/static/media/category7-img1.8137c4630b70785e5767.png",
     "static/media/category2-img1.png": "/ivei/static/media/category2-img1.350d77e85f6b6aa56e3c.png",
-    "static/media/category6-img1.png": "/ivei/static/media/category6-img1.569bad63e1328dab1263.png",
+    "static/media/category1-img1.png": "/ivei/static/media/category1-img1.c0c1eb17490b86dbdbbc.png",
     "static/media/category4-img1.png": "/ivei/static/media/category4-img1.346818280bcc4a4f4111.png",
+    "static/media/category3-img1.png": "/ivei/static/media/category3-img1.aa45e8e05fca1ef3d037.png",
     "static/media/form-button.svg": "/ivei/static/media/form-button.17a24eedc9e7d62c22fe44415b843fe4.svg",
     "static/media/ivei-logo.png": "/ivei/static/media/ivei-logo.7c319f348b02ee46f631.png",
     "static/media/Indusmela.webp": "/ivei/static/media/Indusmela.ede019b33a6d17a8996b.webp",
@@ -51,11 +51,11 @@
     "static/media/phone.svg": "/ivei/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/ivei/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
     "main.8a67734d.css.map": "/ivei/static/css/main.8a67734d.css.map",
-    "main.c8e568fb.js.map": "/ivei/static/js/main.c8e568fb.js.map",
+    "main.0f721716.js.map": "/ivei/static/js/main.0f721716.js.map",
     "453.76acbd0d.chunk.js.map": "/ivei/static/js/453.76acbd0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a67734d.css",
-    "static/js/main.c8e568fb.js"
+    "static/js/main.0f721716.js"
   ]
 }
