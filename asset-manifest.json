@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ivei/static/css/main.99cff16c.css",
+    "main.css": "/ivei/static/css/main.fc8dea31.css",
     "main.js": "/ivei/static/js/main.1b96f597.js",
     "static/js/453.76acbd0d.chunk.js": "/ivei/static/js/453.76acbd0d.chunk.js",
     "static/media/category7-img2.png": "/ivei/static/media/category7-img2.10925081ff1b87128dc5.png",
@@ -51,12 +51,12 @@
     "static/media/slick.woff": "/ivei/static/media/slick.295183786cd8a1389865.woff",
     "static/media/phone.svg": "/ivei/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/ivei/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
-    "main.99cff16c.css.map": "/ivei/static/css/main.99cff16c.css.map",
+    "main.fc8dea31.css.map": "/ivei/static/css/main.fc8dea31.css.map",
     "main.1b96f597.js.map": "/ivei/static/js/main.1b96f597.js.map",
     "453.76acbd0d.chunk.js.map": "/ivei/static/js/453.76acbd0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99cff16c.css",
+    "static/css/main.fc8dea31.css",
     "static/js/main.1b96f597.js"
   ]
 }
