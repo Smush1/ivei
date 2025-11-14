@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/ivei/static/css/main.8a67734d.css",
-    "main.js": "/ivei/static/js/main.8e9c2206.js",
+    "main.css": "/ivei/static/css/main.99cff16c.css",
+    "main.js": "/ivei/static/js/main.1b96f597.js",
     "static/js/453.76acbd0d.chunk.js": "/ivei/static/js/453.76acbd0d.chunk.js",
     "static/media/category7-img2.png": "/ivei/static/media/category7-img2.10925081ff1b87128dc5.png",
     "static/media/category1-img2.png": "/ivei/static/media/category1-img2.5c1de73616711a38ccac.png",
     "static/media/category6-img2.png": "/ivei/static/media/category6-img2.faee24650633e58e59b9.png",
-    "static/media/contact-bulk-buy-bg.png": "/ivei/static/media/contact-bulk-buy-bg.f74464a034f04d1d40e2.png",
     "static/media/category2-img2.png": "/ivei/static/media/category2-img2.1e41299c6f93b5ed4b1f.png",
     "static/media/category5-img2.png": "/ivei/static/media/category5-img2.9f35e3b9833fb95e12b6.png",
     "static/media/ivei-desk-banner.png": "/ivei/static/media/ivei-desk-banner.84338ab50ffea2765f6e.png",
@@ -14,6 +13,7 @@
     "static/media/category3-img2.png": "/ivei/static/media/category3-img2.95ba9f784de405696038.png",
     "static/media/testimonial-4.png": "/ivei/static/media/testimonial-4.6a01cfcacac3d2afe9bd.png",
     "static/media/category8-img2.png": "/ivei/static/media/category8-img2.0c54f865932972b7e207.png",
+    "static/media/corporating-gift-bg.jpg": "/ivei/static/media/corporating-gift-bg.bbfacd525129da127747.jpg",
     "static/media/testimonial-3.png": "/ivei/static/media/testimonial-3.31aa969fb91d12939ff3.png",
     "static/media/testimonial-1.png": "/ivei/static/media/testimonial-1.ecb9d3d4ae67ae739dc3.png",
     "static/media/featured-img-9.png": "/ivei/static/media/featured-img-9.f1e22533fb9739e0af17.png",
@@ -51,12 +51,12 @@
     "static/media/slick.woff": "/ivei/static/media/slick.295183786cd8a1389865.woff",
     "static/media/phone.svg": "/ivei/static/media/phone.95276cf8d5fc640963a394b1b3018781.svg",
     "static/media/email.svg": "/ivei/static/media/email.f8102bf773ad36d9c063bda73287fb08.svg",
-    "main.8a67734d.css.map": "/ivei/static/css/main.8a67734d.css.map",
-    "main.8e9c2206.js.map": "/ivei/static/js/main.8e9c2206.js.map",
+    "main.99cff16c.css.map": "/ivei/static/css/main.99cff16c.css.map",
+    "main.1b96f597.js.map": "/ivei/static/js/main.1b96f597.js.map",
     "453.76acbd0d.chunk.js.map": "/ivei/static/js/453.76acbd0d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a67734d.css",
-    "static/js/main.8e9c2206.js"
+    "static/css/main.99cff16c.css",
+    "static/js/main.1b96f597.js"
   ]
 }
