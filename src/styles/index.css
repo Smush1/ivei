@@ -828,6 +828,11 @@ justify-content: center;
   background-color: var(--DARK-COLOR)!important;
 }
 
+.btn-knw{
+  width: 50%!important; 
+  margin-top: 20px;
+}
+
 
 
 /* Small  */
@@ -847,7 +852,7 @@ justify-content: center;
 
   
 .btn-knw{
-  width: 70%!important; 
+  width: 65%!important; 
   margin-top: 20px;
 }
 }
@@ -880,7 +885,7 @@ justify-content: center;
 
 
 .bulk-form-overlay{
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.34);
   border-radius: 40px;
 }
 
