@@ -17,19 +17,19 @@ function ContactUs() {
                     <div className="add-icon-info">
                         <h4 className=""> Write to Us</h4>
                         <p className='mb-0'> We’re here to help with any questions or partnership inquiries!</p>
-                        <a href="mailto:istonkraft@gmail.com" rel="noreferrer" className='mt-0'>istonkraft@gmail.com</a>
+                        <a href="mailto:info@ivei.in" rel="noreferrer" className='mt-0'>info@ivei.in</a>
                     </div>
                 </div>
                 <div className="add-info-item d-flex">
                     <div className="add-icon-container">
-                    <a href="https://wa.me/917060602250" rel="noreferrer" className='mt-0'>
+                    <a href="https://wa.me/7887091110" rel="noreferrer" className='mt-0'>
                     <img src={phoneSvg} alt=""  />
                     </a>                   
                     </div>
                     <div className="add-icon-info">
                         <h4>Call Us/ Whatsapp Us</h4>
                         <p className='mb-0'> We’d love to hear from you!</p>
-                        <a href="https://wa.me/917060602250" rel="noreferrer" className='mt-0 text-decoration-underline'>+917060602250</a>
+                        <a href="https://wa.me/7887091110" rel="noreferrer" className='mt-0 text-decoration-underline'>+917887091110</a>
                     </div>
                 </div>
                 <div className="add-info-item d-flex">
@@ -38,8 +38,11 @@ function ContactUs() {
                     </div>
                     <div className="add-icon-info">
                         <h4>Visit Us</h4>
-                        <p className='mb-0'>If you’d like to meet us!</p>
-                        <p className='mt-0'>JP Nagar 7th Phase, Bangalore</p>
+                        <p className='mb-0'>If you’d like to meet us!</p><br/>
+                        <p className='mt-0'>IVEI Products Pvt. Ltd.<br/>
+                                        Plot No.C; Industrial Estate<br/>
+                                        Khairabad - 261131<br/>
+                                        Sitapur - Uttar Pradesh</p>
                     </div>
                 </div>
               
@@ -49,8 +52,8 @@ function ContactUs() {
                 <p>Whether you have partnership inquiries or general questions, simply fill out the form below, and our team will get back to you shortly.</p>
 
 
-                <form action="https://formsubmit.co/istonkraft@gmail.com" method="post" className='container'>
-                    <input type="hidden" name="_subject" value="KLEO" />
+                <form action="https://formsubmit.co/info@ivei.in" method="post" className='container'>
+                    <input type="hidden" name="_subject" value="IVEI" />
                   <div className="row"> 
                     <div className=" d-inline-block col-6 ps-0">
                         <label htmlFor="name">Your Name*</label>
@@ -62,7 +65,7 @@ function ContactUs() {
                     </div>
                     <div className="col-12 field p-0">
                         <label htmlFor="email">Your Email*</label>
-                        <input id="email" type="text" name="email" className="d-block contact-us-field w-100" required placeholder="company@xyz.com" />
+                        <input id="email" type="email" name="email" className="d-block contact-us-field w-100" required placeholder="company@xyz.com" />
                     </div>
                     <div className="col-12 field p-0">
                         <label htmlFor="message">Write Us</label>   

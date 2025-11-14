@@ -1,4 +1,4 @@
-import footerLogo from '../images/ivei-logo.png'
+import footerLogo from '../images/ivei-big-logo.webp'
 
 function Footer() {
   return (
@@ -33,7 +33,7 @@ function Footer() {
                             <ul className="courses-link-list">
                                 <li><a href="index.html" rel="noreferrer">Home</a></li>
                                 <li><a href="#core-categories" rel="noreferrer">Collection</a></li>
-                                <li><a href="#bulk-buy" rel="noreferrer">Bulk Buy</a></li>
+                                <li><a href=" https://indusmela.in/pages/corporate-gifts" rel="noreferrer">Bulk Buy</a></li>
                             </ul>
                         </div>
                     </div>{/* <!-- widget end --> */}
@@ -57,8 +57,8 @@ function Footer() {
                                 <div className="contact course-links-widget">
                                     <h5 className="pb-3 widget-title">Contact</h5>
                                     <ul className="company-footer-contact-list">
-                                    <a href="https://wa.me/917060602250" target="_blank"><li><i className="fa-phone fa-solid pb-2"></i>+91 70606 02250</li></a>
-                                    <a href="mailto:istonkraft@gmail.com"  target="_blank"><li><i className="fa-envelope fa-solid"></i>istonkraft@gmail.com</li>
+                                    <a href="https://wa.me/917887091110" target="_blank"><li><i className="fa-phone fa-solid pb-2"></i>+91 78870 91110</li></a>
+                                    <a href="mailto:info@ivei.in"  target="_blank"><li><i className="fa-envelope fa-solid"></i>info@ivei.in</li>
                                     </a>
                                     </ul>
                                 </div>
@@ -68,12 +68,12 @@ function Footer() {
                                 <h5 className=" widget-title">Follow Us</h5>
                                 <ul  className="d-flex company-footer-Follow-us">
                                     <li>
-                                        <a href="https://www.instagram.com/indusmela/" target="_blank" rel="noreferrer">
+                                        <a href="https://www.instagram.com/ivalueeveryidea/" target="_blank" rel="noreferrer">
                                             <i className="fa-brands fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/indusmela" target="_blank" rel="noreferrer">
+                                        <a href="https://www.facebook.com/ivalueeveryidea.IVEI/" target="_blank" rel="noreferrer">
                                             <i className="fa-brands fa-facebook"></i>
                                         </a>
                                     </li>

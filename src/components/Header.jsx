@@ -34,7 +34,7 @@ function Header() {
              </a>
 
         {/*     <!-- Right-aligned Button --> */}
-            <a href="#bulk-buy" rel="noreferrer" className="d-lg-block d-none corporate-btn" aria-label='Bulk Buy Form'>CONTACT FOR BULK BUYING</a>
+            <a href="https://wa.me/7887091110" rel="noreferrer" className="d-lg-block d-none corporate-btn" aria-label='Bulk Buy Form'>CONTACT FOR BULK BUYING</a>
             <a href="#bulk-buy" 
             rel="noreferrer" 
             className="d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none form-icon-anchor" 

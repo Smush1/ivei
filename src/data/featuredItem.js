@@ -48,7 +48,7 @@ const FeaturedItemsImage =[
         "desc": "",
         "sku":"B08LYTW4PL",
         "type": "",
-        "productLink": "https://indusmela.in/products/ivei-diy-mdf-wood-sheet-round-craft-magnet-with-primer-plain-mdf-fridge-magnet-blanks-cutouts-set-of-20-3mm-2in-diameter-for-painting-wooden-craft-decoupage-resin-art-work-decoration?_pos=1&_fid=189dcf856&_ss=c",
+        "productLink": "https://indusmela.in/products/ivei-diy-mdf-wood-sheet-craft-magnet-plain-mdf-fridge-magnet-blanks-cutouts-magnets-for-painting-wooden-sheet-craft-decoupage-resin-art-work-decoration?_pos=1&_sid=5c82fa0e7&_ss=r",
         "modalId": "featuredImg3",
         "price": "238.00",
         "salePrice": ""
