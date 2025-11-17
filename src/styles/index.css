@@ -301,6 +301,12 @@ body{
 }
 
 /* Custom Button */
+
+.hero-btn-container{
+  gap: 1rem;
+}
+
+
 .btn-custom {
   background-color: var(--LIGHT-COLOR);
   border-radius: var(--BTN-BORDER-RADIUS);
@@ -315,9 +321,6 @@ body{
   font-weight: bold;
 }
 
-.corp-gift-link{
-  margin-left: 20px;
-}
 
 .btn-custom:hover {
   background-color: var(--DARK-COLOR);
@@ -360,10 +363,23 @@ body{
   }
 }
 
+@media (max-width: 894px) and (min-width: 769px) {
+  .carousel-item {
+      height: 55vh;
+  }
+}
+
+
+
 @media (max-width: 768px) {
   .carousel-item {
       height: 42vh;
   }
+
+  .carousel-inner{
+  border-radius: 10px;
+  height: 460px;
+}
 
   .carousel-caption {
       width: 100%;
@@ -381,6 +397,8 @@ body{
   }
 }
 
+
+
 @media (max-width: 615px) {
   .carousel-item {
       height: 55vh;
@@ -394,8 +412,9 @@ body{
       transform: translateX(-50%);
       z-index: 10;
       padding: 15px 10px 10px 10px;
-      height: 21rem;
+      height: 22rem;
   }
+
 
   .carousel-caption h1 {
       font-size: 1.4rem;
@@ -424,7 +443,7 @@ body{
       -ms-border-radius: var(--BTN-BORDER-RADIUS);
       -o-border-radius: var(--BTN-BORDER-RADIUS);
       padding: 8px 10px;
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       color: var(--WHITE-CLR);
       border: none;
   }
@@ -553,6 +572,9 @@ body{
 
 
 /* Carousel Image */
+
+
+
 .carousel-inner img {
   width: 100%;
   height: auto;
@@ -898,6 +920,11 @@ justify-content: center;
 
 @media screen and (min-width: 769px) and (max-width: 1260px) {
 
+  .carousel-caption{
+    max-width: 70%!important;
+  }
+ 
+
   .bulk-contact-inner-container > .row{
     gap: 1rem;
   }
@@ -917,11 +944,11 @@ justify-content: center;
 
 @media screen and (max-width: 768px){
   .bulk-contact-inner-container{
-    background: none;
+/*     background: none; */
   }
 
   .bulk-form-overlay{
-    background-color: var(--WHITE-CLR);
+/*     background-color: var(--WHITE-CLR); */
   }
 
 
@@ -966,7 +993,10 @@ justify-content: center;
 
 .bulk-left-heading{
   font-weight: 700;
-  font-size: 1.85rem;
+  font-size: 1.4rem;
+  width: 80%;
+  margin-inline: auto;
+  color: var(--WHITE-CLR);
 }
 
 
@@ -998,6 +1028,7 @@ justify-content: center;
 @media screen and (max-width: 768px){
   .text-btn-container{
     color: var(--BLACK-CLR);
+    padding: 20px;
   }
 
 
@@ -1203,7 +1234,7 @@ justify-content: center;
     width: 80%!important;
   }
   .contact-us-section{
-    margin-top: 5rem;
+    margin: 2rem auto!important;
   }
 }
 
@@ -1225,7 +1256,7 @@ justify-content: center;
 
 @media (max-width: 576px){
   .contact-us-main--inner-container{
-    row-gap: 5rem;
+    row-gap: 2rem;
   }
 }
 

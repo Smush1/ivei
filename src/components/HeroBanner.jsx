@@ -40,8 +40,10 @@ function HeroBanner({desktopBanner, mobileBanner}) {
                           <div className="carousel-caption">
                               <h1 className="pb-2">Available Worldwide on <br/> IndusMela & Amazon</h1>
                               <p className="pb-2">Explore handcrafted products by IVEI – I Value Every Idea—where function meets creativity. From workspace organizers to thoughtful home décor, each piece is designed with care and made in collaboration with rural artisans. Available globally on <a href="https://indusmela.com/collections/ivei" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.com </a>, <a href=" https://indusmela.in/collections/ivei" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.in</a>, and <a href="https://www.amazon.in/stores/page/E038CA22-D0EA-4BC6-B5A4-DE7B56A383DB?ingress=2&visitId=72819e62-f0a1-4259-aacd-f5c1adca2443&store_ref=bl_ast_dp_brandLogo_sto&ref_=ast_bln" target="_blank" rel="noreferrer"  className="hero-banner-link">Amazon</a>, IVEI brings the charm of Indian craftsmanship to everyday life with trusted quality and fair pricing.</p>
-                              <a href="#featured-products" className="btn btn-custom" aria-label='View Products' >VIEW PRODUCTS</a>
-                              <a href="https://indusmela.in/pages/corporate-gifts" className="btn btn-custom corp-gift-link" aria-label='Corporate Gifting' >CORPORATE GIFTING</a>
+                             <div className="d-flex hero-btn-container justify-content-center"> 
+                                <a href="#featured-products" className="btn btn-custom" aria-label='View Products' >VIEW PRODUCTS</a>
+                                <a href="https://indusmela.in/pages/corporate-gifts" className="btn btn-custom corp-gift-link" aria-label='Corporate Gifting' >CORPORATE GIFTING</a>
+                              </div>
                           </div>
                       </div>
                   </div>
