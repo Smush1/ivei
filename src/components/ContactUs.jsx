@@ -39,9 +39,9 @@ function ContactUs() {
                     <div className="add-icon-info">
                         <h4>Visit Us</h4>
                         <p className='mb-0'>If you’d like to meet us!</p><br/>
-                        <p className='mt-0'>IVEI Products Pvt. Ltd.<br/>
-                                        Plot No.C; Industrial Estate<br/>
-                                        Khairabad - 261131<br/>
+                        <p className='mt-0'>IVEI Products Pvt. Ltd. <br/>
+                                        Plot No.C, Industrial Estate <br/>
+                                        Khairabad - 261131 <br/>
                                         Sitapur - Uttar Pradesh</p>
                     </div>
                 </div>
